@@ -1,0 +1,37 @@
+﻿namespace EVESharpCore.Questor.States
+{
+    public enum CombatMissionsBehaviorState
+    {
+        Default,
+        Idle,
+        MissionStatistics,
+        Cleanup,
+        Start,
+        Switch,
+        Arm,
+        LocalWatch,
+        WaitingforBadGuytoGoAway,
+        WarpOutStation,
+        GotoMission,
+        ExecuteMission,
+        DelayedGotoBase,
+        GotoBase,
+        CompleteMission,
+        QuitMission,
+        Statistics,
+        UnloadLoot,
+        GotoNearestStation,
+        Error,
+        Paused,
+        Panic,
+        Traveler,
+        Storyline,
+        StorylineReturnToBase,
+        CourierMission,
+        CourierMissionArm,
+        StorylinePanic,
+        PrepareStorylineSwitchAgents,
+        PrepareStorylineChangeFitting,
+        PrepareStorylineGotoBase
+    }
+}
